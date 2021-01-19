@@ -1,0 +1,58 @@
+/* Здесь пишем свои стили */
+.order-alertvisible{
+    opacity: 0;
+}
+.order-alertvisible1{
+    opacity: 10;
+    margin-left: 10px;
+    border: black 1px solid;
+    border-radius: 30px;
+    padding: 10px;
+}
+.noactive{
+     visibility: hidden;
+}
+.active1{
+    
+      transition: 1.5s;
+      visibility: visible;
+     position:fixed;
+     bottom: 0;
+     right: 0;
+    background-color: green;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-top: 20px;
+    
+    height: 80px;
+    width: 80px;
+    color: white;
+    font-size: 20px;
+    border: 0px;
+}
+.pad{
+    text-decoration: none;
+    color:red;
+    
+}
+.nonepad{
+    text-decoration: none;
+    color: black;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+#progres{
+    background-color: red;
+    height: 5px;
+    
+    
+}
+.kit_slide{
+    visibility: visible;
+}
+.kit_slideoff{
+    visibility: hidden;
+}
